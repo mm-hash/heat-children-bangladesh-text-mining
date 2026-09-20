@@ -216,3 +216,47 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Environment and credentials
+.env
+*.env
+config.ini
+secrets.json
+
+# Raw and processed documents
+data/raw/
+data/processed/
+corpus/
+corpus_texts/
+extracted_texts/
+
+# Potentially confidential datasets
+*.xlsx
+*.xls
+*.sav
+*.dta
+
+# Large intermediate outputs
+outputs/*.csv
+outputs/*.pkl
+outputs/*.joblib
+tokens_*.csv
+
+# Compressed corpora and document collections
+*.zip
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*-eps-converted-to.pdf
+svg-inkscape/
